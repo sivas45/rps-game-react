@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #3a3a3a, #1e1e1e); /* Gradient background for the body */
+  color: #fff; /* White text color */
+  font-family: Arial, sans-serif; /* Font family */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 10px 100  px 10px 10px; /* Margin around the button */
+  padding: 1px 20px; /* Padding inside the button */
+  font-size: 1rem; /* Font size for the button text */
+  background-color: #d1d62f; /* Green background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  width: 250px;
+  height: 30px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+img{
+  width:150px;
+  height: 150px;
+  margin: 0px 30px;
+  
+}
